@@ -1,0 +1,8 @@
+**/__pycache__/
+*.pyc
+*.pkl
+.env
+*.dcm
+/images/
+node_modules/
+dist/
