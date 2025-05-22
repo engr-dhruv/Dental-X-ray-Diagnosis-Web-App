@@ -54,8 +54,8 @@ This project demonstrates the power of combining medical imaging, deep learning,
 ### 📁 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/dental-xray-diagnosis.git
-cd dental-xray-diagnosis
+git clone https://github.com/engr-dhruv/Dental-X-ray-Assignment.git
+cd Dental-X-ray-Assignment
 ```
 
 ### 📁 2. Backend Setup (FastAPI)
