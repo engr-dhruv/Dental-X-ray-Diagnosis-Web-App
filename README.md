@@ -21,7 +21,7 @@ This project demonstrates the power of combining medical imaging, deep learning,
 
 ## 🎥 Demo
 
-![Dental X-ray Demo](./demo.gif)
+![Dental X-ray Demo](./demo.png)
 
 > *This demo shows uploading a dental X-ray, detecting pathologies, and generating a real-time diagnostic report.*
 
