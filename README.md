@@ -1,8 +1,8 @@
 # 🦷 Dental X-ray Diagnosis Web App
 
-A full-stack AI-powered web application that allows users to upload Dental X-ray DICOM images, detects pathologies using Roboflow’s object detection model, and generates clinical diagnostic reports using Google's Gemini API.
+A full-stack AI-powered web application that allows users to upload Dental X-ray DICOM images, detects pathologies using Roboflow’s object detection model and generates clinical diagnostic reports using Google's Gemini API.
 
-This project demonstrates the power of combining medical imaging, deep learning, and natural language generation using a modern full-stack architecture.
+This project demonstrates the power of combining medical imaging, deep learning and natural language generation using a modern full-stack architecture.
 
 ---
 
@@ -15,15 +15,14 @@ This project demonstrates the power of combining medical imaging, deep learning,
 - 🖼️ View annotated images with bounding boxes
 - 💻 Responsive UI built with React + Tailwind CSS
 - 🔐 Secure API key handling (never exposed to frontend)
-- 🐳 Docker-ready setup (optional)
 
 ---
 
-## 🎥 Demo
+## 🖼️ Demo
 
 ![Dental X-ray Demo](./demo.png)
 
-> *This demo shows uploading a dental X-ray, detecting pathologies, and generating a real-time diagnostic report.*
+> *This demo shows dental X-ray, detecting pathologies and generating a real-time diagnostic report.*
 
 ---
 
@@ -69,7 +68,7 @@ cp .env.example .env            # Create a .env file and add your API keys
 uvicorn main:app --reload
 ```
 
-### 📁 2. Frontend Setup 
+### 📁 3. Frontend Setup 
 ```bash
 cd frontend
 npm install
