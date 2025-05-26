@@ -23,7 +23,7 @@ This project demonstrates the power of combining medical imaging, deep learning 
 ![Dental X-ray Demo](./demo.png)
 
 > *This demo shows dental X-ray, detecting pathologies and generating a real-time diagnostic report.*
-
+[Demo Link](https://dental-x-ray-diagnosis-web-app.vercel.app/)
 ---
 
 ## 🧰 Tech Stack
