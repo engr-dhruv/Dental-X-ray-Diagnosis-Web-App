@@ -12,6 +12,7 @@ load_dotenv()
 ROBOFLOW_API_KEY = os.getenv("ROBOFLOW_API_KEY")
 ROBOFLOW_URL = "https://detect.roboflow.com/adr/6"
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+BASE_URL = os.getenv("BASE_URL", "http://localhost:8000")
 genai.configure(api_key=GEMINI_API_KEY)
 
 
@@ -57,8 +58,8 @@ async def process_dicom_file(file):
     report = generate_report(predictions)
 
     return {
-        "original_image_url": f"http://localhost:8000/{png_path}",
-        "annotated_image_url": f"http://localhost:8000/{annotated_path}",
+        "original_image_url": f"{BASE_URL}/{png_path}",
+        "annotated_image_url": f"{BASE_URL}/{annotated_path}",
         "report": report
     }
 
