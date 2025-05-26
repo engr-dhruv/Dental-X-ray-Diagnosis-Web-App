@@ -30,7 +30,7 @@ export default function DentalXrayApp() {
   const [annotatedSrc, setAnnotatedSrc] = useState(null);
   const [report, setReport] = useState('');
   const [loading, setLoading] = useState(false);
-
+  const API_URL = import.meta.env.VITE_API_URL;
   const handleFileChange = (e) => {
     setFile(e.target.files[0]);
   };
@@ -42,7 +42,7 @@ export default function DentalXrayApp() {
     formData.append('file', file);
 
     try {
-      const res = await axios.post('http://localhost:8000/process', formData);
+      const res = await axios.post(`${API_URL}/process`, formData);
 
       // setImageSrc(res.data.original_image_url);
       setAnnotatedSrc(res.data.annotated_image_url);
